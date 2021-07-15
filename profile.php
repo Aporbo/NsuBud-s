@@ -75,6 +75,18 @@ margin: 2px;
         width: 50px;
     }
 
+    #post_bar{
+        margin-top: 20px;
+        background-color: white;
+        padding: 10px;
+    }
+    #post{
+        padding:4px;
+        font-size: 13px;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
 </style>
 
 <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color:#d0d8e4">
@@ -135,7 +147,7 @@ margin: 2px;
       </div>
 
      </div>
-     <!-- post -->
+     <!-- post area -->
      <div  style="min-height: 400px; flex:2.5; padding: 20px; padding-right:0px">
 
      <div style="border: solid thin #aaa; padding:10px; background-color:white" >
@@ -143,6 +155,61 @@ margin: 2px;
          <input type="submit" id="post_button" value="Post">
          <br>
      </div>
+     <!-- posts -->
+<div id="post_bar">
+
+  <!-- posts 1-->
+
+    <div id="post">    
+    <div>
+    <img src="user1.jpg" alt="" style="width: 75px; margin-right:4px">
+    </div>
+    <div>
+        <div style="font-weight:bold; color:#405d9b ">First Guy</div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi sed numquam dolorem consequuntur accusamus natus, quod libero temporibus fugiat magnam excepturi vel iure odio voluptates laboriosam suscipit optio? Consequatur nobis nam, minima nihil natus doloremque ipsa consequuntur odit fugiat fugit repudiandae veritatis molestias atque mollitia debitis maxime reprehenderit architecto eius!
+    <br><br>
+    <a href="">Like</a> .    <a href="">Comment</a>    .   <span style="color:#999">16 july 2021</span>
+
+ 
+    </div>
+    </div>
+
+     <!-- posts 2-->
+
+     <div id="post">    
+    <div>
+    <img src="user3.jpg" alt="" style="width: 75px; margin-right:4px">
+    </div>
+    <div>
+        <div style="font-weight:bold; color:#405d9b ">Third Guy</div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi tenetur cum, facere magni iure perferendis asperiores autem nam accusantium corrupti. Minus et fuga dolorem harum asperiores quas ad soluta doloremque, praesentium numquam vero ipsam eveniet blanditiis hic itaque dicta qui vitae. Error voluptate dicta deleniti dolores unde sit, atque ut.
+    <br><br>
+    <a href="">Like</a> .    <a href="">Comment</a>    .   <span style="color:#999">16 july 2021</span>
+
+ 
+    </div>
+    </div>
+
+     <!-- posts 3-->
+
+     <div id="post">    
+    <div>
+    <img src="user4.jpg" alt="" style="width: 75px; margin-right:4px">
+    </div>
+    <div>
+        <div style="font-weight:bold; color:#405d9b ">Fourth Guy</div>
+   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi dolorum asperiores, maiores facere corporis at officia consequuntur? Repellendus assumenda sequi recusandae ab a saepe maxime sapiente voluptate nisi consequuntur hic minus distinctio, quae obcaecati, itaque tempore magni aut perferendis nam facilis ipsa dicta unde libero. In nemo tempore blanditiis deleniti.
+    <br><br>
+    <a href="">Like</a> .    <a href="">Comment</a>    .   <span style="color:#999">16 july 2021</span>
+
+ 
+    </div>
+    </div>
+
+</div>
+
+
+
      </div>
      </div>
      
