@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NSUBUD's | Signup</title>
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color:#e9ebee;">
    <div id="bar">

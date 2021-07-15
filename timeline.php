@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>profile | NSUBUD's</title>
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/timeline.css">
 </head>
 
 
 <style type="text/css">
-
 
 </style>
 
@@ -26,49 +25,15 @@
      <!-- started cover -->
      <div style="width: 800px; margin: auto; min-height:400px ">
       
-     <div style="background-color: white; text-align:center; color: #405d9b">
-         <img src="Media/mountain.jpg" style="width: 100%;" alt="">
-         <img id="profile_pic" src="Media/selfie.jpg" alt="">
-         <br>
-        <div style="font-size:20px">
-        Merry banda
-        </div>
-         <br>
-         <div id="menu_buttons" >Timeline</div>
-         <div id="menu_buttons" >About</div>
-         <div id="menu_buttons" >Friends</div>
-         <div id="menu_buttons" >Photos</div>
-         <div id="menu_buttons" >Settings</div>
-     </div>
+     
  <!-- below cover -->
      <div style="display:flex">
      <!-- friends -->
      <div style="min-height: 400px; flex:1">
 
       <div id="friends_bar" >
-          Friends <br>
-          <div id="friends" >
- <img id="friends_img" src="Media/user1.jpg" alt="">
- <br>
- First User
-          </div>
-
-          <div id="friends" >
- <img id="friends_img" src="Media/user2.jpg" alt="">
- <br>
- Second User
-          </div>
-          <div id="friends" >
- <img id="friends_img" src="Media/user3.jpg" alt="">
- <br>
- Third User
-          </div>
-          <div id="friends" >
- <img id="friends_img" src="Media/user4.jpg" alt="">
- <br>
- Fourth User
-          </div>
-          
+         <img src="Media/selfie.jpg" alt="" id="profile_pic"> <br>
+         Mary Banda
       </div>
 
      </div>
