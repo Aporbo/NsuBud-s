@@ -45,5 +45,4 @@ class database {
     }
 }
 
-$DB = new database();
 
