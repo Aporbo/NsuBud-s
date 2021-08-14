@@ -20,7 +20,7 @@ class signup
    public function crrate_user($data)
 {
 
-    $firtname1= $data['first_name'];
+    $firtname= $data['first_name'];
     $lastname= $data['last_name'];
     $gender= $data['gender'];
     $email= $data['email'];
