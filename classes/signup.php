@@ -20,12 +20,16 @@ class signup
    public function crrate_user($data)
 {
 
-    $firtname= $data['first_name'];
+    $firtname1= $data['first_name'];
     $lastname= $data['last_name'];
     $gender= $data['gender'];
     $email= $data['email'];
     $password= $data['password'];
+    //create these
+    $userid= $data['userid'];
     $urlAddress= $data['url_address'];
+
+
 
 
 
