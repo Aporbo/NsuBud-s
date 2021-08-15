@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST'){
 
        <span style="font-weight: normal;"> Gender: </span> <br>
          <select id="text" name="gender">
-             <option >Male</option>
+             <option >Female</option>
              <option >Female</option>
 
          </select> <br><br>
