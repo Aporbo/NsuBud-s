@@ -28,14 +28,6 @@ class signup
     //create these
     $userid= $data['userid'];
     $urlAddress= $data['url_address'];
-
-
-
-
-
-
-
-
     $query = "insert into 
     users
     (userid, first_name,last_name,gender,email,password,url_address) 
@@ -43,4 +35,6 @@ class signup
     $DB = new database();
     $DB->save($query);
 }
+
+private 
 }
