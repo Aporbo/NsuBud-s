@@ -1,1 +1,1 @@
-# NsuBud-s . A social media site for North South University Students
+# NsuBud-s . A social media platform for North South University Students
