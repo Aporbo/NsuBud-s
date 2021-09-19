@@ -1,0 +1,110 @@
+\documentclass[ 12pt,a4paper,twocolumn,fleqn]{article}
+\usepackage{graphicx}
+\usepackage[a4paper,top=20mm, bottom=30mm, left=10mm, right=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage[]{algorithm2e}
+\usepackage{color}
+\usepackage{fancybox}
+\thisfancypage{%
+  \setlength{\fboxsep}{20pt}\doublebox}{}
+\pagestyle{fancy}
+\usepackage{lineno}
+\usepackage{xtab,booktabs}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\setlength\columnsep{25pt}
+\makeatletter
+\g@addto@macro{\normalsize}{%
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\abovedisplayshortskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+\setlength{\belowdisplayshortskip}{0pt}}
+\makeatother
+\mathindent=0.0pt
+\usepackage{float}
+\renewcommand{\baselinestretch}{1.5}
+\begin{document}
+\lhead{\textsc{Lab Report}}
+\chead{}
+\onecolumn
+\begin{center}
+ \vspace{0.5cm}
+\smallskip
+\textcolor{red}{\LARGE{\underline{"Report For Project NSUBUD's"}}}
+ \vspace{ 1 cm}\\
+\large{Project Name: NSUBUD's\\Course : CSE311L\\Section: 1\\Semester: Summer 2021 }\\
+
+\includegraphics[scale=0.6]{images/logo.png} \\
+\textcolor{purple}{{\textit{"Submitted By"}}}\\
+\textbf{Aporbo Ghosh} \\
+\textbf{1931458042} \\
+\textbf{Sabrina Akter Sabina} \\
+\textbf{1931947042} \\
+\textbf{Ayesha Rahman} \\
+\textbf{1931209042} \\
+
+ \vspace{0.5cm}
+\textcolor{blue}{{\textit{"Submitted To"}}}
+\\{
+\textbf{Nazmul Alam Dipto}
+\hfill}
+{
+\textbf{Ahmed Fahmin}
+\hfill
+ \\
+\textbf{lab Instructor}
+\hfill
+\textbf{Lecturer}
+\hfill
+}
+\end{center}
+
+
+
+\newpage
+
+
+
+% -------------------------------------------------------------------
+% Abstract
+% -------------------------------------------------------------------
+% -------------------------------------------------------------------
+% Contents, list of figures, list of tables
+% -------------------------------------------------------------------
+
+\tableofcontents
+
+
+
+% -------------------------------------------------------------------
+% Main sections (as required)
+% -------------------------------------------------------------------
+
+% \mainmatter
+
+\input{sections/introduction.tex}
+\input{sections/background.tex}
+\input{sections/methodology.tex}
+
+
+
+% -------------------------------------------------------------------
+% Bibliography
+% -------------------------------------------------------------------
+
+
+
+% -------------------------------------------------------------------
+% Appendices
+% -------------------------------------------------------------------
+
+
+
+\end{document}
