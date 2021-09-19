@@ -14,20 +14,20 @@ INSERT INTO `admin_info` (`Username`, `Password`) VALUES
 ('98d34c1758b15b5a359b69c2b08c5767', '98d34c1758b15b5a359b69c2b08c5767');
 
 
-CREATE TABLE IF NOT EXISTS `feedback` (
-  `feedback_id` int(7) NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `help` (
+  `help_id` int(7) NOT NULL AUTO_INCREMENT,
   `user_id` int(7) NOT NULL,
-  `feedback_txt` varchar(120) NOT NULL,
-  `star` varchar(1) NOT NULL,
+  `help_txt` varchar(120) NOT NULL,
+  `type` varchar(10) NOT NULL,
   `Date` varchar(30) NOT NULL,
-  PRIMARY KEY (`feedback_id`),
+  PRIMARY KEY (`help_id`),
   KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 
 
-INSERT INTO `feedback` (`feedback_id`, `user_id`, `feedback_txt`, `star`, `Date`) VALUES
-(2, 8, 'nice', '5', '30-9-2021 11:34');
+INSERT INTO `help` (`help_id`, `user_id`, `help_txt`, `type`, `Date`) VALUES
+(2, 8, 'nice', 'account', '30-9-2021 11:34');
 
 
 CREATE TABLE IF NOT EXISTS `group_chat` (
@@ -198,8 +198,8 @@ CREATE TABLE IF NOT EXISTS `user_warning` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-ALTER TABLE `feedback`
-  ADD CONSTRAINT `feedback_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE;
+ALTER TABLE `help`
+  ADD CONSTRAINT `help_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE;
 
 
 ALTER TABLE `group_chat`

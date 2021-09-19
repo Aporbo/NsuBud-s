@@ -8,9 +8,9 @@ function searched_over(uid)
 function searched_out(uid)
 {
 	document.getElementById("Photo"+uid).bgColor = "#FFFFFF";
-	document.getElementById("Photo"+uid).style.color="#3B5998";
+	document.getElementById("Photo"+uid).style.color="#d91835";
 	document.getElementById("Name_bg"+uid).bgColor = "#FFFFFF";
-	document.getElementById("Name_font"+uid).style.color="#3B5998";	
+	document.getElementById("Name_font"+uid).style.color="#d91835";	
 }
 function see_more_over()
 {
@@ -21,5 +21,5 @@ function see_more_over()
 function see_more_out()
 {
 	document.getElementById("see_more").bgColor = "#F2F2F2";
-	document.getElementById("see_more_text").style.color="#3B5998";
+	document.getElementById("see_more_text").style.color="#d91835";
 }

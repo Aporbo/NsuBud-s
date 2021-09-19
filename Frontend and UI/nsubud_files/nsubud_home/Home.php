@@ -305,7 +305,7 @@
 	</tr>
 	<tr>
 		<td>   </td>
-		<td  bgcolor="#EDEFF4" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#a85b9b;"></span> like this. </td>
+		<td  bgcolor="" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#a85b9b;"></span> like this. </td>
 		<td> </td>
 		<td> </td>
 	</tr>
@@ -318,170 +318,170 @@
 
 	<tr>
 		<td> </td>
-		<td width="4%" bgcolor="#EDEFF4" style="padding-left:12; padding-right:12;" rowspan="2">  <img src="" height="40" width="47">    </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;padding-right:7;" > <a href="" style="text-transform:capitalize; text-decoration:none; color:#d91835;"  id=""</a> </td>
+		<td width="4%" bgcolor="" style="padding-left:12; padding-right:12;" rowspan="2">  <img src="" height="40" width="47">    </td>
+		<td bgcolor="" style="padding-left:7;padding-right:7;" > <a href="" style="text-transform:capitalize; text-decoration:none; color:#d91835;"  id=""</a> </td>
 	
-			<td  rowspan="2" bgcolor="#EDEFF4"> 
+			<td  rowspan="2" bgcolor=""> 
 			<form method="post">  
 				<input type="hidden" name="comm_id" value="" >
 				<input type="submit" name="delete_comment" value="Delete Comment" style="background-color:#FFFFFF; border:#FFFFFF; "> &nbsp;
 			</form> </td>
 		
-		<td rowspan="2" bgcolor="#EDEFF4">
+		<td rowspan="2" bgcolor="">
 			<form method="post">  
 				<input type="hidden" name="comm_id" value="" >
 				<input type="submit" name="delete_comment" value="delete comment" style="background-color:#FFFFFF; border:#FFFFFF;"> &nbsp;
 			</form> </td>
 		
-			<td align="right" rowspan="2" bgcolor="#EDEFF4">  </td>
+			<td align="right" rowspan="2" bgcolor="">  </td>
 		
 		
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">  </td>
-	</tr>
-	
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">       </td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">   </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">  </td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">       </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">       </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">   </td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">    </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">   </td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">       </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">       </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">   </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">   </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">    </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">    </td>
+	</tr>
+	
+	<tr>
+		<td> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">     </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">       </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">   </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">    </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">     </td>
 	</tr>
 
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">       </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">       </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">   </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">   </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">    </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">    </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">     </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">     </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> ></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> ></td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">       </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">       </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">   </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">   </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">    </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">    </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">     </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">     </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2">      </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2">      </td>
 	</tr>
 	
 	<tr>
 	<td> </td>
-	<td width="4%" style="padding-left:17;" bgcolor="#EDEFF4" rowspan="2">  <img src="" style="height:33; width:33;">    </td>
-		<td bgcolor="#EDEFF4" colspan="2" style="padding-top:15;"> 
+	<td width="4%" style="padding-left:17;" bgcolor="" rowspan="2">  <img src="" style="height:33; width:33;">    </td>
+		<td bgcolor="" colspan="2" style="padding-top:15;"> 
 		<form method="post" name="commenting" onSubmit="return blank_comment_check()"> 
 		<input type="text" name="comment_txt" placeholder="Write a comment..." maxlength="420" style="width:440;" id=""> 
 		<input type="hidden" name="postid" value=""> 

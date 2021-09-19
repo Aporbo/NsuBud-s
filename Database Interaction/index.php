@@ -43,8 +43,8 @@ include("fb_files/fb_index_file/fb_background_file/index_background.php");
 		<!--Left part-->
 		<!--Mobile Image--> 	
 	<div style="position:absolute; left:5%; top:35%;"> <img src="fb_files/fb_index_file/fb_image_file/logo.png" width="700" height="390"> </div>
-    <div style="position:absolute; left:7%; top:20%; color:#3B5998; font-size:28px;"> <font face="myFbFont"> NSUBUD's helps you connect and share with </font> </div>
-    <div style="position:absolute; left:7%; top:26%; color:#3B5998; font-size:28px;"> <font face="myFbFont"> the people at North South University. </font></div>
+    <div style="position:absolute; left:7%; top:20%; color:#d91835; font-size:28px;"> <font face="myFbFont"> NSUBUD's helps you connect and share with </font> </div>
+    <div style="position:absolute; left:7%; top:26%; color:#d91835; font-size:28px;"> <font face="myFbFont"> the people at North South University. </font></div>
 	
 	
 	<div style="position:absolute;left:50%; right:49%; top:20%; height:50%; width:1; background-color:#CCCCCC;"> </div>

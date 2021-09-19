@@ -54,9 +54,9 @@
 
 <div style="position:absolute;left:31.5%; top:54%; font-weight:bold; z-index:1;">  Timeline  </div>
 <div style="position:absolute;left:37.1%; display:none; top:51%; height:9.8%; width:5.9%; background-color:#F6F7F8; z-index:1;" id="about_txt_background"> </div>
-<div style="position:absolute;left:38.3%; top:54%; font-weight:bold; z-index:1;"> <a href="about.php?id=<?php echo $v_user_id; ?>" style="text-decoration:none; color:#3B59B0;" onMouseOver="on_about_txt();" onMouseOut="out_about_txt();"> About </a>  </div>
+<div style="position:absolute;left:38.3%; top:54%; font-weight:bold; z-index:1;"> <a href="about.php?id=<?php echo $v_user_id; ?>" style="text-decoration:none; color:#e1465d;" onMouseOver="on_about_txt();" onMouseOut="out_about_txt();"> About </a>  </div>
 <div style="position:absolute;left:43.1%; display:none; top:51%; height:9.8%; width:8.4%; background-color:#F6F7F8; z-index:1;" id="photos_txt_background"> </div>
-<div style="position:absolute;left:44.7%; top:54%; font-weight:bold; z-index:1; color:#3B59B0;"> <a href="photos.php?id=<?php echo $v_user_id; ?>" style="text-decoration:none; color:#3B59B0;" onMouseOver="on_photos_txt();" onMouseOut="out_photos_txt();">  Photos </a> <samp style="color:#717171;"> <?php echo $photos_count; ?> </samp> </div>
+<div style="position:absolute;left:44.7%; top:54%; font-weight:bold; z-index:1; color:#e1465d;"> <a href="photos.php?id=<?php echo $v_user_id; ?>" style="text-decoration:none; color:#e1465d;" onMouseOver="on_photos_txt();" onMouseOut="out_photos_txt();">  Photos </a> <samp style="color:#717171;"> <?php echo $photos_count; ?> </samp> </div>
 
 
 <?php
@@ -311,7 +311,7 @@
 		}
 	?>
 	
-	<tr style="color:#6D84C4;">
+	<tr style="color:#8f305c;">
 		<td >   </td>
 		<?php
 		 	$que_status=mysqli_query($con,"select * from user_post_status where post_id=$postid and user_id=$userid;");
@@ -325,7 +325,7 @@
 		<form method="post">
 		<input type="hidden" name="postid" value="<?php echo $postid; ?>">
 		<input type="hidden" name="userid" value="<?php echo $userid; ?>">
-		<input type="submit" value="Unlike" name="Unlike" style="border:#FFFFFF; background:#FFFFFF; font-size:15px; color:#6D84C4;" onMouseOver="unlike_underLine(<?php echo $postid; ?>)" onMouseOut="unlike_NounderLine(<?php echo $postid; ?>)" id="unlike<?php echo $postid; ?>"></form></td>
+		<input type="submit" value="Unlike" name="Unlike" style="border:#FFFFFF; background:#FFFFFF; font-size:15px; color:#8f305c;" onMouseOver="unlike_underLine(<?php echo $postid; ?>)" onMouseOut="unlike_NounderLine(<?php echo $postid; ?>)" id="unlike<?php echo $postid; ?>"></form></td>
 			<?php
 			}
 			else
@@ -334,7 +334,7 @@
 		<form method="post">
 		<input type="hidden" name="postid" value="<?php echo $postid; ?>">
 		<input type="hidden" name="userid" value="<?php echo $userid; ?>">
-		<input type="submit" value="Like" name="Like" style="border:#FFFFFF; background:#FFFFFF; font-size:15px; color:#6D84C4;" onMouseOver="like_underLine(<?php echo $postid; ?>)" onMouseOut="like_NounderLine(<?php echo $postid; ?>)" id="like<?php echo $postid; ?>"></form></td>
+		<input type="submit" value="Like" name="Like" style="border:#FFFFFF; background:#FFFFFF; font-size:15px; color:#8f305c;" onMouseOver="like_underLine(<?php echo $postid; ?>)" onMouseOut="like_NounderLine(<?php echo $postid; ?>)" id="like<?php echo $postid; ?>"></form></td>
 			<?php
 			}
 		 ?>
@@ -344,12 +344,12 @@
 	$count_comment=mysqli_num_rows($que_comment);
 		 ?>
 		
-		<td colspan="3"> &nbsp; <input type="button" value="Comment(<?php echo $count_comment; ?>)" style="background:#FFFFFF; border:#FFFFFF;font-size:15px; color:#6D84C4;" onClick="Comment_focus(<?php echo $postid; ?>);" onMouseOver="Comment_underLine(<?php echo $postid; ?>)" onMouseOut="Comment_NounderLine(<?php echo $postid; ?>)" id="comment<?php echo $postid; ?>">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:#999999;">   <?php echo $post_data[4]; ?> </span> </td>
+		<td colspan="3"> &nbsp; <input type="button" value="Comment(<?php echo $count_comment; ?>)" style="background:#FFFFFF; border:#FFFFFF;font-size:15px; color:#8f305c;" onClick="Comment_focus(<?php echo $postid; ?>);" onMouseOver="Comment_underLine(<?php echo $postid; ?>)" onMouseOut="Comment_NounderLine(<?php echo $postid; ?>)" id="comment<?php echo $postid; ?>">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:#999999;">   <?php echo $post_data[4]; ?> </span> </td>
 		<td>   </td>
 	</tr>
 	<tr>
 		<td>   </td>
-		<td  bgcolor="#EDEFF4" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#6D84C4;"><?php echo $count_like; ?></span> like this. </td>
+		<td  bgcolor="" style="width:5;" colspan="3"><img src="img/like.PNG"><span style="color:#8f305c;"><?php echo $count_like; ?></span> like this. </td>
 		<td> </td>
 		<td> </td>
 	</tr>
@@ -377,12 +377,12 @@
 
 	<tr>
 		<td> </td>
-		<td width="4%" bgcolor="#EDEFF4" style="padding-left:12;padding-right:12" rowspan="2">  <img src="../../fb_users/<?php echo $user_gender1; ?>/<?php echo $user_Email1; ?>/Profile/<?php echo $user_pic1; ?>" height="40" width="47">    </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;padding-right:7;" > <a href="view_profile.php?id=<?php echo $comment_user_id; ?>" style="text-transform:capitalize; text-decoration:none; color:#3B5998;" onMouseOver="Comment_name_underLine(<?php echo $comment_id; ?>)" onMouseOut="Comment_name_NounderLine(<?php echo $comment_id; ?>)" id="cuname<?php echo $comment_id; ?>"> <?php echo $user_name1; ?></a> </td>
+		<td width="4%" bgcolor="" style="padding-left:12;padding-right:12" rowspan="2">  <img src="../../fb_users/<?php echo $user_gender1; ?>/<?php echo $user_Email1; ?>/Profile/<?php echo $user_pic1; ?>" height="40" width="47">    </td>
+		<td bgcolor="" style="padding-left:7;padding-right:7;" > <a href="view_profile.php?id=<?php echo $comment_user_id; ?>" style="text-transform:capitalize; text-decoration:none; color:#d91835;" onMouseOver="Comment_name_underLine(<?php echo $comment_id; ?>)" onMouseOut="Comment_name_NounderLine(<?php echo $comment_id; ?>)" id="cuname<?php echo $comment_id; ?>"> <?php echo $user_name1; ?></a> </td>
 <?php	
         if($userid==$comment_user_id)
 		{ ?>
-		<td  rowspan="2" bgcolor="#EDEFF4">
+		<td  rowspan="2" bgcolor="">
 			<form method="post">  
 				<input type="hidden" name="comm_id" value="<?php echo $comment_id; ?>" >
 				<input type="submit" name="delete_comment" value="delete comment" style="background-color:#FFFFFF; border:#FFFFFF;"> &nbsp;
@@ -392,7 +392,7 @@
 		}
 		else
 		{?>
-			<td align="right" rowspan="2" bgcolor="#EDEFF4">  </td>
+			<td align="right" rowspan="2" bgcolor="">  </td>
 		<?php
 		}
 	?>
@@ -405,7 +405,7 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<?php
 	}
@@ -416,12 +416,12 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
 	</tr>
 	<?php
 	}
@@ -433,17 +433,17 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
 	</tr>
 	<?php
 	}
@@ -456,22 +456,22 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
 	</tr>
 	<?php
 	}
@@ -485,27 +485,27 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline5; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline5; ?></td>
 	</tr>
 	<?php
 	}
@@ -520,32 +520,32 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline5; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline5; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline6; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline6; ?></td>
 	</tr>
 	<?php
 	}
@@ -561,37 +561,37 @@
 	?>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline1; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline2; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline3; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline4; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline5; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline5; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline6; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline6; ?></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> <?php echo $cline7; ?></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> <?php echo $cline7; ?></td>
 	</tr>
 	<?php
 	}
@@ -603,8 +603,8 @@
 
 <tr>
 	<td> </td>
-	<td width="4%" style="padding-left:17;" bgcolor="#EDEFF4" rowspan="2">  <img src="../../fb_users/<?php echo $gender; ?>/<?php echo $user; ?>/Profile/<?php echo $img; ?>" style="height:33; width:33;">    </td>
-		<td bgcolor="#EDEFF4" colspan="2" style="padding-top:15;"> 
+	<td width="4%" style="padding-left:17;" bgcolor="" rowspan="2">  <img src="../../fb_users/<?php echo $gender; ?>/<?php echo $user; ?>/Profile/<?php echo $img; ?>" style="height:33; width:33;">    </td>
+		<td bgcolor="" colspan="2" style="padding-top:15;"> 
 		<form method="post" name="commenting" onSubmit="return blank_comment_check()"> 
 		<input type="text" name="comment_txt" placeholder="Write a comment..." maxlength="420" style="width:440;" id="<?php echo $postid;?>"> 
 		<input type="hidden" name="postid" value="<?php echo $postid; ?>"> 

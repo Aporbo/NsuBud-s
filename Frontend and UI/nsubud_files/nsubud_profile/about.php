@@ -10,10 +10,10 @@
 
 
 <div style="position:absolute;left:30%; display:none;  top:51%; height:9.8%; width:6.9%; background-color:#F6F7F8; z-index:1;" id="timeline_txt_background"> </div>
-<div style="position:absolute;left:31.5%; top:54%; font-weight:bold; z-index:1;"> <a href="Profile.php" style="text-decoration:none; color:#3B59B0;" onMouseOver="on_timeline_txt();" onMouseOut="out_timeline_txt();">  Timeline </a> </div>
+<div style="position:absolute;left:31.5%; top:54%; font-weight:bold; z-index:1;"> <a href="Profile.php" style="text-decoration:none; color:#e1465d;" onMouseOver="on_timeline_txt();" onMouseOut="out_timeline_txt();">  Timeline </a> </div>
 <div style="position:absolute;left:38.3%; top:54%; font-weight:bold; z-index:1;">  About   </div>
 <div style="position:absolute;left:43.1%; display:none; top:51%; height:9.8%; width:8.4%; background-color:#F6F7F8; z-index:1;" id="photos_txt_background"> </div>
-<div style="position:absolute;left:44.7%; top:54%; font-weight:bold; z-index:1; color:#3B59B0;"> <a href="photos.php" style="text-decoration:none; color:#3B59B0;" onMouseOver="on_photos_txt();" onMouseOut="out_photos_txt();">  Photos </a> <samp style="color:#717171;"></samp> </div>
+<div style="position:absolute;left:44.7%; top:54%; font-weight:bold; z-index:1; color:#e1465d;"> <a href="photos.php" style="text-decoration:none; color:#e1465d;" onMouseOver="on_photos_txt();" onMouseOut="out_photos_txt();">  Photos </a> <samp style="color:#717171;"></samp> </div>
 
 
 <div style="position:absolute;left:15%;top:68%;height:12%;width:70%; background-color:#F6F7F8; box-shadow:0px -1px 5px 1px rgb(0,0,0);"> </div>
@@ -70,7 +70,7 @@
 		<div style="position:absolute;left:60%;top:101%; color:#000; font-weight:bold;text-transform:capitalize;">  </div>
 
 
-		<div style="position:absolute;left:60%;top:101%; color:#80062d; font-weight:bold;"> Add Your Current City </div>
+		<div style="position:absolute;left:60%;top:101%; color:#80062d; font-weight:bold;"> Current Living Area </div>
 
 <div style="position:absolute;left:53%;top:115%;"> <img src="img/hometown.PNG"> </div>
 
@@ -208,7 +208,7 @@
 <div style="position:absolute;left:51%;top:145%;"> <h3> Contact Information </h3> </div>
 
 <div id="contact_static" onClick="contact_static_hide()">
-<div style="position:absolute;left:53%;top:156%; font-size:18px; color:#89919C;"> Mobile Phones </div>
+<div style="position:absolute;left:53%;top:156%; font-size:18px; color:#89919C;"> NSU ID </div>
 
 		<div style="position:absolute;left:62%;top:156%; font-size:18px;"> </div>
 
@@ -269,7 +269,7 @@
 
 
 
-<div style="position:absolute;left:58%;top:193%; display:none;" id="mobile_no_erorr"><img src="img/wrong.png"> The phone number is invalid.</div>
+<div style="position:absolute;left:58%;top:193%; display:none;" id="mobile_no_erorr"><img src="img/wrong.png"> Invalid Nsu id.</div>
 
 <div style="position:absolute;left:24%;top:220%; color:#E9EAED;">.</div>
 

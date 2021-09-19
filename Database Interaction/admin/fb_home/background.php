@@ -85,8 +85,8 @@
 	<div style="position:fixed; left:86%; top:22.8%; z-index:3;"> <a href="Notice.php"> <img src="img/Notice.png" height="25" width="23" onMouseOver="head_notice_over()" onMouseOut="head_notice_out()"> </a> </div>
 <div style="position:fixed; left:88.2%; top:20%; z-index:3;"><a href="Notice.php" style="text-decoration:none; color:#000;" id="head_notice" onMouseOver="head_notice_over()" onMouseOut="head_notice_out()"><h4> Notice </h4></a></div>
 
-<div style="position:fixed; left:86.1%; top:27.5%; z-index:3;"> <a href="feedback.php"> <img src="background_file/background_icons/icon-feedback.png" height="20" width="20" onMouseOver="head_feedback_over()" onMouseOut="head_feedback_out()"> </a> </div>
-<div style="position:fixed; left:88.3%; top:24.5%; z-index:3;"><a href="feedback.php" style="text-decoration:none; color:#000;" id="head_feedback" onMouseOver="head_feedback_over()" onMouseOut="head_feedback_out()"><h4> Help </h4></a></div>
+<div style="position:fixed; left:86.1%; top:27.5%; z-index:3;"> <a href="help.php"> <img src="background_file/background_icons/icon-help.png" height="20" width="20" onMouseOver="head_help_over()" onMouseOut="head_help_out()"> </a> </div>
+<div style="position:fixed; left:88.3%; top:24.5%; z-index:3;"><a href="help.php" style="text-decoration:none; color:#000;" id="head_help" onMouseOver="head_help_over()" onMouseOut="head_help_out()"><h4> Help </h4></a></div>
 
 <div style="position:fixed; left:86%; top:32.5%; z-index:3;"> <a href="../fb_logout/logout.php"> <img src="background_file/background_icons/logout.png" height="20" width="20"  onMouseOver="head_logout_over()" onMouseOut="head_logout_out()"> </a> </div>
 <div style="position:fixed; left:88.3%; top:29.1%; z-index:3;"><a href="../fb_logout/logout.php" style="text-decoration:none; color:#000;" id="head_logout" onMouseOver="head_logout_over()" onMouseOut="head_logout_out()"><h4> Logout </h4></a></div>
@@ -112,8 +112,8 @@
 <div style="position:fixed; left:7%; top:40.2%;"> <a href="Group_Message.php"> <img src="img/group.png" height="25" width="23" onMouseOver="left_group_message_over()" onMouseOut="left_group_message_out()"> </a> </div>
 <div style="position:fixed; left:9%; top:37%;"><a href="Group_Message.php" style="text-decoration:none; color:#000;" id="group_message" onMouseOver="left_group_message_over()" onMouseOut="left_group_message_out()"><h4>Group Chat</h4></a></div>
 
-<div style="position:fixed; left:7.3%; top:44.7%;"> <a href="feedback.php"> <img src="img/icon-feedback.png" height="25" width="23" onMouseOver="left_feedback_over()" onMouseOut="left_feedback_out()"> </a> </div>
-<div style="position:fixed; left:9%; top:41.7%;"><a href="feedback.php" style="text-decoration:none; color:#000;" id="feedback" onMouseOver="left_feedback_over()" onMouseOut="left_feedback_out()"><h4>Help</h4></a></div>
+<div style="position:fixed; left:7.3%; top:44.7%;"> <a href="help.php"> <img src="img/icon-help.png" height="25" width="23" onMouseOver="left_help_over()" onMouseOut="left_help_out()"> </a> </div>
+<div style="position:fixed; left:9%; top:41.7%;"><a href="help.php" style="text-decoration:none; color:#000;" id="help" onMouseOver="left_help_over()" onMouseOut="left_help_out()"><h4>Help</h4></a></div>
 
 <div style="position:fixed; left:7.2%; top:49.2%;"> <a href="Notice.php"> <img src="img/Notice.png" height="25" width="20" onMouseOver="left_notice_over()" onMouseOut="left_notice_out()"> </a> </div>
 <div style="position:fixed; left:9%; top:46%;"><a href="Notice.php" style="text-decoration:none; color:#000;" id="notice" onMouseOver="left_notice_over()" onMouseOut="left_notice_out()"><h4>Notice</h4></a></div>

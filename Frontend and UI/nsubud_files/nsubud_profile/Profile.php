@@ -92,10 +92,10 @@
 			else
 			{
 			
-			<td colspan="5" align="right" style="border-top:outset; border-top-width:thin;"> 
+			<td colspan="4" align="right" style="border-top:outset; border-top-width:thin;"> 
 			<form method="post">  
 				<input type="hidden" name="post_id" value="" >
-				<input type="submit" name="delete_post" value="delete post" style="background-color:#FFFFFF; border:#FFFFFF;  "> 
+				<input type="submit" name="delete_post" value="delete post" style="background-color:#FFFFFF; border:;  "> 
 			</form> </td>
 			<td>  </td>
 			<td> </td>
@@ -279,7 +279,7 @@
 	</tr>
 	<tr>
 		<td>   </td>
-		<td  bgcolor="#EDEFF4" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#a85b9b;"></span> like this. </td>
+		<td  bgcolor="" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#a85b9b;"></span> like this. </td>
 		<td> </td>
 		<td> </td>
 	</tr>
@@ -294,9 +294,9 @@
 
 	<tr>
 		<td> </td>
-		<td width="4%" bgcolor="#EDEFF4" style="padding-left:12;padding-right:12;" rowspan="2">  <img src="../../nsubud_users/Profile" height="40" width="47">    </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;padding-right:7;" > <a href="#" style="text-transform:capitalize; text-decoration:none; color:#d91835;" onMouseOver="Comment_name_underLine()" onMouseOut="Comment_name_NounderLine()" id="cuname"> </a> </td>
-		<td rowspan="2" bgcolor="#EDEFF4"> 
+		<td width="4%" bgcolor="" style="padding-left:12;padding-right:12;" rowspan="2">  <img src="../../nsubud_users/Profile" height="40" width="47">    </td>
+		<td bgcolor="" style="padding-left:7;padding-right:7;" > <a href="#" style="text-transform:capitalize; text-decoration:none; color:#d91835;" onMouseOver="Comment_name_underLine()" onMouseOut="Comment_name_NounderLine()" id="cuname"> </a> </td>
+		<td rowspan="2" bgcolor=""> 
 			<form method="post">  
 				<input type="hidden" name="comm_id" value="" >
 				<input type="submit" name="delete_comment" value="Delete comment" style="background-color:#FFFFFF; border:#FFFFFF;"> &nbsp;
@@ -305,148 +305,148 @@
 
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
-	</tr>
-	
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
-	</tr>
-	<tr>
-		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
+	</tr>
+	
+	<tr>
+		<td> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4"> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"></td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td bgcolor=""> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"></td>
 	</tr>
 
 <tr>
 	<td> </td>
-	<td width="4%" style="padding-left:17;" bgcolor="#EDEFF4" rowspan="2">  <img src="../../nsubud_users" style="height:33; width:33;">    </td>
-		<td bgcolor="#EDEFF4" colspan="2" style="padding-top:15;"> 
+	<td width="4%" style="padding-left:17;" bgcolor="" rowspan="2">  <img src="../../nsubud_users" style="height:33; width:33;">    </td>
+		<td bgcolor="" colspan="2" style="padding-top:15;"> 
 		<form method="post" name="commenting" onSubmit="return blank_comment_check()"> 
 		<input type="text" name="comment_txt" placeholder="Write a comment..." maxlength="420" style="width:440;" id=""> 
 		<input type="hidden" name="postid" value=""> 

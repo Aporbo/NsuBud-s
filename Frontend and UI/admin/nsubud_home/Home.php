@@ -7,7 +7,7 @@
 	<script src="Home_js/home.js" language="javascript"></script>
 </head>
 <body>
-<div style="position:absolute;left:35%; top:8%;"> <h1> All Public Post </h1> </div>
+<div style="position:absolute;left:35%; top:8%; color:red"> <h1> All Public Post </h1> </div>
 <div style="position:absolute;left:19%; top:20%;">
 <table cellspacing="0">
 
@@ -15,7 +15,7 @@
 		<td colspan="4"align="right" style="border-top:outset; border-top-width:thin;"> 
 			<form method="post">  
 				<input type="hidden" name="post_id" value="" >
-				<input type="submit" name="delete_post" value="delete post" style="background-color:#FFFFFF; border:#FFFFFF;  ">  
+				<input type="submit" name="delete_post" value="delete post" style="background-color:#FFFFFF; border:;  ">  
 			</form></a> </td>
 			<td>  </td>
 			<td> </td>
@@ -64,7 +64,7 @@
     
     <tr>
 		<td>   </td>
-		<td  bgcolor="#EDEFF4" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#a85b9b;"></span> like </td>
+		<td  bgcolor="" style="width:9;" colspan="3"><img src="img/like.PNG"><span style="color:#a85b9b;"></span> like </td>
 		<td> </td>
 		<td> </td>
 	</tr>
@@ -79,10 +79,10 @@
 
 	<tr>
 		<td> </td>
-		<td width="4%" bgcolor="#EDEFF4" style="padding-left:12; padding-right:12;" rowspan="2">  <img src="img/Aporbo.jpg" height="50" width="47">    </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7; padding-right:7;" > <a href="" style="text-transform:capitalize; text-decoration:none; color:#d91835;" onMouseOver="" onMouseOut="" id=""> Aporbo Ghosh</a> </td>
+		<td width="4%" bgcolor="" style="padding-left:12; padding-right:12;" rowspan="2">  <img src="img/Aporbo.jpg" height="50" width="47">    </td>
+		<td bgcolor="" style="padding-left:7; padding-right:7;" > <a href="" style="text-transform:capitalize; text-decoration:none; color:#d91835;" onMouseOver="" onMouseOut="" id=""> Aporbo Ghosh</a> </td>
         
-        <td align="right" rowspan="2" bgcolor="#EDEFF4"> 
+        <td align="right" rowspan="2" bgcolor=""> 
 			<form method="post">  
 				<input type="hidden" name="comm_id" value="" >
 				<input type="submit" name="delete_comment" value="delete comment" style="background-color:#FFFFFF; border:#FFFFFF;"> &nbsp;
@@ -92,12 +92,12 @@
     
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 	
 	<tr>
 		<td> </td>
-		<td bgcolor="#EDEFF4" style="padding-left:7;" colspan="2"> </td>
+		<td bgcolor="" style="padding-left:7;" colspan="2"> </td>
 	</tr>
 
 	

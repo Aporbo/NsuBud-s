@@ -42,20 +42,7 @@ function contact_form_hide()
 		
 function contact_check()
 {
-	var no = document.contact.mno.value;
-	if(no!='')
-	{
-     if (no.length!=10)
-     {
-         document.getElementById("mobile_no_erorr").style.display='block';
-         return false;
-      }
-      if (no.charAt(0)!="9" && no.charAt(0)!="8" && no.charAt(0)!="7")
-      {
-         document.getElementById("mobile_no_erorr").style.display='block';
-         return false;
-      }
-	}
+
 }
 
 function isNumberKey(evt)

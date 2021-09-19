@@ -25,9 +25,9 @@ function searched_over(uid)
 function searched_out(uid)
 {
 	document.getElementById("Photo"+uid).bgColor = "#FFFFFF";
-	document.getElementById("Photo"+uid).style.color="#3B5998";
+	document.getElementById("Photo"+uid).style.color="#d91835";
 	document.getElementById("Name_bg"+uid).bgColor = "#FFFFFF";
-	document.getElementById("Name_font"+uid).style.color="#3B5998";	
+	document.getElementById("Name_font"+uid).style.color="#d91835";	
 }
 function see_more_over()
 {
@@ -38,7 +38,7 @@ function see_more_over()
 function see_more_out()
 {
 	document.getElementById("see_more").bgColor = "#F2F2F2";
-	document.getElementById("see_more_text").style.color="#3B5998";
+	document.getElementById("see_more_text").style.color="#d91835";
 }
 function serched_name_over1(uid)
 {
@@ -59,7 +59,7 @@ function serched_name_out1(uid)
 		$count1=mysqli_num_rows($query1);
 ?>
 <!--Head background-->
-<div style="position:fixed;left:0;top:0; height:6%; width:100%; z-index:1; background:#3B5998">   </div>
+<div style="position:fixed;left:0;top:0; height:6%; width:100%; z-index:1; background:#d91835">   </div>
 <!--Head fb text-->
 <div style="position:fixed;left:4.5%;top:0.8%;font-size:25;font-weight:900; z-index:2;"> <a href="../fb_home/Home.php" style="color:#FFFFFF; text-decoration:none;" onMouseOver="on_head_fb_text()" onMouseOut="out_head_fb_text()"> Nsubud's </a> </div>
 <!--Head fb text background-->
@@ -147,7 +147,7 @@ function serched_name_out1(uid)
 
 		<td bgcolor="#FFFFFF" style="padding-right:7;" id="Photo1<?php echo $uid ?>"> <a href="../fb_view_profile/view_profile.php?id=<?php echo $uid; ?>"> <img src="../../fb_users/<?php echo $gender; ?>/<?php echo $email; ?>/Profile/<?php echo $img; ?>" style="height:70; width:70;"> </a>  </td>
 		
-		<td onMouseOver="serched_name_over1(<?php echo $uid;?>)" onMouseOut="serched_name_out1(<?php echo $uid;?>)" width="500" bgcolor="#FFFFFF" id="Name_bg1<?php echo $uid; ?>"> <a href="../fb_view_profile/view_profile.php?id=<?php echo $uid; ?>" style=" text-decoration:none; text-transform:capitalize; color:#3B5998;" id="Name_font1<?php echo $uid;?>">  <?php echo $name; ?> </a></td>
+		<td onMouseOver="serched_name_over1(<?php echo $uid;?>)" onMouseOut="serched_name_out1(<?php echo $uid;?>)" width="500" bgcolor="#FFFFFF" id="Name_bg1<?php echo $uid; ?>"> <a href="../fb_view_profile/view_profile.php?id=<?php echo $uid; ?>" style=" text-decoration:none; text-transform:capitalize; color:#d91835;" id="Name_font1<?php echo $uid;?>">  <?php echo $name; ?> </a></td>
 		
 		</tr>
 		<tr>

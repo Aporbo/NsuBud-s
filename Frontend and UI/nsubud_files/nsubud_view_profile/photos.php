@@ -7,9 +7,9 @@
 
 
 <div style="position:absolute;left:30%; display:none;  top:51%; height:9.8%; width:6.9%; background-color:#F6F7F8; z-index:1;" id="timeline_txt_background"> </div>
-<div style="position:absolute;left:31.5%; top:54%; font-weight:bold; z-index:1;"> <a href="" style="text-decoration:none; color:#3B59B0;" onMouseOver="on_timeline_txt();" onMouseOut="out_timeline_txt();">  Timeline </a> </div>
+<div style="position:absolute;left:31.5%; top:54%; font-weight:bold; z-index:1;"> <a href="" style="text-decoration:none; color:#e1465d;" onMouseOver="on_timeline_txt();" onMouseOut="out_timeline_txt();">  Timeline </a> </div>
 <div style="position:absolute;left:37.1%; display:none; top:51%; height:9.8%; width:5.9%; background-color:#F6F7F8; z-index:1;" id="about_txt_background"> </div>
-<div style="position:absolute;left:38.3%; top:54%; font-weight:bold; z-index:1;"> <a href="" style="text-decoration:none; color:#3B59B0;" onMouseOver="on_about_txt();" onMouseOut="out_about_txt();"> About </a>  </div>
+<div style="position:absolute;left:38.3%; top:54%; font-weight:bold; z-index:1;"> <a href="" style="text-decoration:none; color:#e1465d;" onMouseOver="on_about_txt();" onMouseOut="out_about_txt();"> About </a>  </div>
 <div style="position:absolute;left:44.7%; top:54%; font-weight:bold; z-index:1; color:#000000;"> Photos  <samp style="color:#717171;"> </samp> </div>
 
 

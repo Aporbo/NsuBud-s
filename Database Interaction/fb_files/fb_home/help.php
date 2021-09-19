@@ -10,18 +10,18 @@
 		$user_data=mysqli_fetch_array($que_user_info);
 		$userid=$user_data[0];
 		
-		if(isset($_POST['feedback']))
+		if(isset($_POST['help']))
 		{
-			$fb_txt=$_POST['feedback_txt'];
+			$fb_txt=$_POST['help_txt'];
 			$star=$_POST['star'];
-			$fb_time=$_POST['feedback_time'];
-			mysqli_query($con,"insert into feedback(user_id,feedback_txt,star,Date) values($userid,'$fb_txt','$star','$fb_time')");
+			$fb_time=$_POST['help_time'];
+			mysqli_query($con,"insert into help(user_id,help_txt,star,Date) values($userid,'$fb_txt','$star','$fb_time')");
 		}
 		
-		if(isset($_POST['delete_feedback']))
+		if(isset($_POST['delete_help']))
 		{
-			$fb_id=intval($_POST['feedback_id']);
-			mysqli_query($con,"delete from feedback where feedback_id=$fb_id");
+			$fb_id=intval($_POST['help_id']);
+			mysqli_query($con,"delete from help where help_id=$fb_id");
 		}
 		
 		
@@ -31,7 +31,7 @@
 <head>
 <title> Help </title>
 <style>
-#feedback_button
+#help_button
 {
 	font-size:14px;
 	height:30;
@@ -46,20 +46,20 @@
 }
 </style>
 <script>
-	function blank_feedback_check()
+	function blank_help_check()
 	{
-		var feedback_txt=document.feedback_form.feedback_txt.value;
-		if(feedback_txt=="")
+		var help_txt=document.help_form.help_txt.value;
+		if(help_txt=="")
 		{
 			return false;
 		}
 		return true;
 	}
-	function feedback_name_underLine(fid)
+	function help_name_underLine(fid)
 	{
 		document.getElementById("uname"+fid).style.textDecoration = "underline";
 	}
-	function feedback_name_NounderLine(fid)
+	function help_name_NounderLine(fid)
 	{
 		document.getElementById("uname"+fid).style.textDecoration = "none"
 	}
@@ -69,7 +69,7 @@
 			d = new Date();
 			mon = d.getMonth()+1;
 			time = d.getDate()+"-"+mon+"-"+d.getFullYear()+" "+d.getHours()+":"+d.getMinutes();
-			feedback_form.feedback_time.value=time;
+			help_form.help_time.value=time;
 	}
 </script>
 </head>
@@ -82,10 +82,10 @@
     <div style=" background:#00122e
 ; position:absolute; left:25%; top:32%; height:24%; width:41.4%; z-index:-1; box-shadow:0px 2px 10px 1px rgb(0,0,0);"> </div>
     
-    <form method="post" name="feedback_form" onSubmit="return blank_feedback_check()">
+    <form method="post" name="help_form" onSubmit="return blank_help_check()">
 	
 	<div style="position:absolute; left:25.3%; top:32.5%;">
-		<textarea style="height:100; width:550;" name="feedback_txt" maxlength="100" placeholder="Write your problem and send us"></textarea>
+		<textarea style="height:100; width:550;" name="help_txt" maxlength="100" placeholder="Write your problem and send us"></textarea>
 	</div>	
     <div style="position:absolute; left:26%; top:48.4%;"> <img style="height:40px; weight:100%" src="img/star.png"> </div>
     <div style="position:absolute; left:30%; top:50.5%;">
@@ -97,23 +97,23 @@
             <option value="signup"> signup </option> 
 		</select> 
     </div>
-    <input type="hidden" name="feedback_time">
-    <div style="position:absolute; left:59%; top:50%;"> <input type="submit" value="Help" name="feedback" id="feedback_button" onClick="time_get()"> </div>
+    <input type="hidden" name="help_time">
+    <div style="position:absolute; left:59%; top:50%;"> <input type="submit" value="Help" name="help" id="help_button" onClick="time_get()"> </div>
     </form>
     
 <?php
-		$que_feedback=mysqli_query($con,"select * from feedback order by feedback_id desc");
+		$que_help=mysqli_query($con,"select * from help order by help_id desc");
 ?>
     <div style="position:absolute; left:20%; top:63%;">
     <table border="0">
 <?php
-	while($feedback_data=mysqli_fetch_array($que_feedback))
+	while($help_data=mysqli_fetch_array($que_help))
 	{
-		$feedback_id=$feedback_data[0];
-		$fb_user_id=$feedback_data[1];
-		$fb_txt=$feedback_data[2];
-		$fb_star=$feedback_data[3];
-		$fb_time=$feedback_data[4];
+		$help_id=$help_data[0];
+		$fb_user_id=$help_data[1];
+		$fb_txt=$help_data[2];
+		$fb_type=$help_data[3];
+		$fb_time=$help_data[4];
 		$que_fb_user_info=mysqli_query($con,"select * from users where user_id=$fb_user_id");
 		$fb_user_data=mysqli_fetch_array($que_fb_user_info);
 		$user_name=$fb_user_data[1];
@@ -130,8 +130,8 @@
 ?>
 	<td colspan="3"align="right" style="border-top:outset; border-top-width:thin;"> 
 			<form method="post">  
-				<input type="hidden" name="feedback_id" value="<?php echo $feedback_id; ?>" >
-				<input type="submit" name="delete_feedback" value="Delete" style="background-color:#FFFFFF; border:#FFFFFF;  "> 
+				<input type="hidden" name="help_id" value="<?php echo $help_id; ?>" >
+				<input type="submit" name="delete_help" value="Delete" style="background-color:#FFFFFF; border:#FFFFFF;  "> 
 			</form>
      </td>
      <td>  </td>
@@ -152,7 +152,7 @@
     
 	<tr>
     	<td style="padding-left:25;" rowspan="2"> <img src="../../fb_users/<?php echo $user_gender; ?>/<?php echo $user_email; ?>/Profile/<?php echo $user_pic; ?>" height="60" width="55">  </td>
-        <td colspan="2" style="padding:7;"> <a href="../fb_view_profile/view_profile.php?id=<?php echo $fb_user_id; ?>" style="text-transform:capitalize; text-decoration:none; color:#003399;" onMouseOver="feedback_name_underLine(<?php echo $feedback_id; ?>)" onMouseOut="feedback_name_NounderLine(<?php echo $feedback_id; ?>)" id="uname<?php echo $feedback_id; ?>"> <?php echo $user_name; ?> </a>   </td>
+        <td colspan="2" style="padding:7;"> <a href="../fb_view_profile/view_profile.php?id=<?php echo $fb_user_id; ?>" style="text-transform:capitalize; text-decoration:none; color:#003399;" onMouseOver="help_name_underLine(<?php echo $help_id; ?>)" onMouseOut="help_name_NounderLine(<?php echo $help_id; ?>)" id="uname<?php echo $help_id; ?>"> <?php echo $user_name; ?> </a>   </td>
        
     </tr>
     <tr>
@@ -162,7 +162,7 @@
 	</tr>
     <tr>
     	<td> </td>
-        <td style=" padding-left:7;"> <span style="color:#999999;">  <?php echo $fb_star; ?>  </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#999999;"> <?php echo $fb_time; ?> </span> </td>
+        <td style=" padding-left:7;"> <span style="color:#999999;">  <?php echo $fb_type; ?>  </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#999999;"> <?php echo $fb_time; ?> </span> </td>
         <td> </td>
     </tr>
     <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>

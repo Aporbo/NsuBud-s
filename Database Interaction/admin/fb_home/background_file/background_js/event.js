@@ -19,8 +19,8 @@ function head_pro_pic_over()
 }
 function head_pro_pic_out()
 {
-	document.getElementById("head_img").bgColor = "#3B5998";
-	document.getElementById("head_name_bg").bgColor = "#3B5998";
+	document.getElementById("head_img").bgColor = "#d91835";
+	document.getElementById("head_name_bg").bgColor = "#d91835";
 	document.getElementById("head_name_font").style.color = "#DEDEEF";	
 }
 

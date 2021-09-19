@@ -51,13 +51,13 @@
 	{
 		document.getElementById("head_logout").style.textDecoration = "none"
 	}
-	function head_feedback_over()
+	function head_help_over()
 	{
-		document.getElementById("head_feedback").style.textDecoration = "underline"
+		document.getElementById("head_help").style.textDecoration = "underline"
 	}
-	function head_feedback_out()
+	function head_help_out()
 	{
-		document.getElementById("head_feedback").style.textDecoration = "none"
+		document.getElementById("head_help").style.textDecoration = "none"
 	}
 	function left_logout_over()
 	{
@@ -87,13 +87,13 @@
 	{
 		document.getElementById("group_message").style.textDecoration = "none"
 	}
-	function left_feedback_over()
+	function left_help_over()
 	{
-		document.getElementById("feedback").style.textDecoration = "underline"
+		document.getElementById("help").style.textDecoration = "underline"
 	}
-	function left_feedback_out()
+	function left_help_out()
 	{
-		document.getElementById("feedback").style.textDecoration = "none"
+		document.getElementById("help").style.textDecoration = "none"
 	}
 	function left_notice_over()
 	{

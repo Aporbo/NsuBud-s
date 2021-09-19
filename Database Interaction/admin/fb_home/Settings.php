@@ -47,7 +47,7 @@
  <!--password change dailog box-->
 <div style="display:none;" id="change_password_dailogbox"> 
 <div style="position:fixed; background:#3A3E41; opacity: 0.8; left:0%; top:0%; height:100%; width:100%; z-index:3" onClick="hide_password_change_box()"></div>
-<div style="position:fixed; background:#3B5998; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
+<div style="position:fixed; background:#d91835; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
 <div style="position:fixed;  left:35%; top:21.5%; z-index:3"> <img src="img/settings.png" height="50" width="50"> </div>
 <div style="position:fixed;  left:40%; top:19%; z-index:3">
 <h1 style="color:#FFFFFF;"> Change Password </h1> </div>

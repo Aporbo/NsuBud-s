@@ -138,7 +138,7 @@ if(isset($_POST['file2']) && ($_POST['file2']=='Upload'))
 <body id="body">
 
 <!--Head background-->
-<div style="position:fixed;left:0;top:0; height:6%; width:100%; z-index:2; background:#3B5998">   </div>
+<div style="position:fixed;left:0;top:0; height:6%; width:100%; z-index:2; background:#d91835">   </div>
 <!--Head fb text-->
 
 <div style="position:fixed;left:4.5%;top:0.8%;font-size:25;font-weight:900; z-index:2;"> <a href="../fb_home/Home.php" style="color:#FFFFFF; text-decoration:none;" onMouseOver="on_head_fb_text()" onMouseOut="out_head_fb_text()"> Nsubud's </a> </div>
@@ -209,8 +209,8 @@ if(isset($_POST['file2']) && ($_POST['file2']=='Upload'))
 	<div style="position:fixed; left:86%; top:22.8%; z-index:3;"> <a href="../fb_home/Notice.php"> <img src="img/Notice.png" height="25" width="23" onMouseOver="head_notice_over()" onMouseOut="head_notice_out()"> </a> </div>
 <div style="position:fixed; left:88.2%; top:20%; z-index:3;"><a href="../fb_home/Notice.php" style="text-decoration:none; color:#000;" id="head_notice" onMouseOver="head_notice_over()" onMouseOut="head_notice_out()"><h4> Notice </h4></a></div>
 
-<div style="position:fixed; left:86.1%; top:27.5%; z-index:3;"> <a href="../fb_home/feedback.php"> <img src="background_file/background_icons/icon-feedback.png" height="20" width="20" onMouseOver="head_feedback_over()" onMouseOut="head_feedback_out()"> </a> </div>
-<div style="position:fixed; left:88.3%; top:24.5%; z-index:3;"><a href="../fb_home/feedback.php" style="text-decoration:none; color:#000;" id="head_feedback" onMouseOver="head_feedback_over()" onMouseOut="head_feedback_out()"><h4> Help </h4></a></div>
+<div style="position:fixed; left:86.1%; top:27.5%; z-index:3;"> <a href="../fb_home/help.php"> <img src="background_file/background_icons/icon-help.png" height="20" width="20" onMouseOver="head_help_over()" onMouseOut="head_help_out()"> </a> </div>
+<div style="position:fixed; left:88.3%; top:24.5%; z-index:3;"><a href="../fb_home/help.php" style="text-decoration:none; color:#000;" id="head_help" onMouseOver="head_help_over()" onMouseOut="head_help_out()"><h4> Help </h4></a></div>
 
 <div style="position:fixed; left:86%; top:32.5%; z-index:3;"> <a href="../fb_logout/logout.php"> <img src="background_file/background_icons/logout.png" height="20" width="20"  onMouseOver="head_logout_over()" onMouseOut="head_logout_out()"> </a> </div>
 <div style="position:fixed; left:88.3%; top:29.1%; z-index:3;"><a href="../fb_logout/logout.php" style="text-decoration:none; color:#000;" id="head_logout" onMouseOver="head_logout_over()" onMouseOut="head_logout_out()"><h4> Logout </h4></a></div>
@@ -320,7 +320,7 @@ if(isset($_POST['file2']) && ($_POST['file2']=='Upload'))
 <!--Cover change dailog box-->
 <div style="display:none;" id="change_cover_pic_dailogbox"> 
 <div style="position:fixed; background:#3A3E41; opacity: 0.8; left:0%; top:0%; height:100%; width:100%; z-index:3"></div>
-<div style="position:fixed; background:#3B5998; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
+<div style="position:fixed; background:#d91835; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
 <div style="position:fixed;  left:31%; top:22%; z-index:3">  <img src="background_file/background_icons/upload_profile_pic.png" height="45" width="50"> </div>
 <div style="position:fixed;  left:35%; top:19%; z-index:3">
 <h1 style="color:#FFFFFF;"> Upload Cover Picture </h1> </div>
@@ -351,7 +351,7 @@ if(isset($_POST['file2']) && ($_POST['file2']=='Upload'))
 <!--Cover pic add dailog box-->
 <div style="display:none;" id="upload_cover_pic_dailogbox"> 
 <div style="position:fixed; background:#3A3E41; opacity: 0.8;  left:0%; top:0%; height:100%; width:100%; z-index:3"></div>
-<div style="position:fixed; background:#3B5998; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
+<div style="position:fixed; background:#d91835; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
 <div style="position:fixed;  left:31%; top:22%; z-index:3">  <img src="background_file/background_icons/upload_profile_pic.png" height="45" width="50"> </div>
 <div style="position:fixed;  left:35%; top:19%; z-index:3">
 <h1 style="color:#FFFFFF;"> Upload Cover Picture </h1> </div>
@@ -418,7 +418,7 @@ if(isset($_POST['file2']) && ($_POST['file2']=='Upload'))
 <!--Profile change dailog box-->
 <div style="display:none;" id="upload_pic"> 
 <div style="position:fixed; background:#3A3E41; opacity: 0.8; left:0%; top:0%; height:100%; width:100%; z-index:3"></div>
-<div style="position:fixed; background:#3B5998; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
+<div style="position:fixed; background:#d91835; left:30%; top:20%; height:10%; width:35%; z-index:3"></div>
 <div style="position:fixed;  left:31%; top:22%; z-index:3">  <img src="background_file/background_icons/upload_profile_pic.png" height="45" width="50"> </div>
 <div style="position:fixed;  left:35%; top:19%; z-index:3">
 <h1 style="color:#FFFFFF;"> Upload Profile Picture </h1> </div>
